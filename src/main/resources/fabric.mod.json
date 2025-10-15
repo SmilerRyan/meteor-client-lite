@@ -1,13 +1,12 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
+  "name": "Meteor Lite",
   "id": "meteor-client",
   "version": "${version}",
-  "description": "Based utility mod.",
+  "description": "Based utility mod framework.",
   "authors": [
-    "MineGame159",
-    "squidoodly",
-    "seasnail"
+    "SmilerRyan",
+    "Others"
   ],
   "contact": {
     "homepage": "https://meteorclient.com",
@@ -37,7 +36,7 @@
   "accessWidener": "meteor-client.accesswidener",
   "custom": {
     "meteor-client:build_number": "${build_number}",
-    "meteor-client:color": "145,61,226",
+    "meteor-client:color": "128,255,0",
     "meteor-client:commit": "${commit}",
     "modmenu": {
       "links": {
