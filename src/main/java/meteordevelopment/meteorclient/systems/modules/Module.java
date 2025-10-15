@@ -84,6 +84,7 @@ public abstract class Module implements ISerializable<Module>, Comparable<Module
     public void onDeactivate() {}
 
     public void toggle() {
+        if(category.name.equals("Meteor")) return;
         if (!active) {
             active = true;
             Modules.get().addActive(this);

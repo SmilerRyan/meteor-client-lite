@@ -146,6 +146,7 @@ public class Modules extends System<Modules> {
         Map<Module, Integer> modules = new ValueComparableMap<>(Comparator.naturalOrder());
 
         for (Module module : this.moduleInstances.values()) {
+            if (module.category == Categories.Meteor) continue;
             int score = Utils.searchLevenshteinDefault(module.title, text, false);
             if (Config.get().moduleAliases.get()) {
                 for (String alias : module.aliases) {
@@ -163,6 +164,7 @@ public class Modules extends System<Modules> {
         Map<Module, Integer> modules = new ValueComparableMap<>(Comparator.naturalOrder());
 
         for (Module module : this.moduleInstances.values()) {
+            if (module.category == Categories.Meteor) continue;
             int lowest = Integer.MAX_VALUE;
             for (SettingGroup sg : module.settings) {
                 for (Setting<?> setting : sg) {
@@ -369,6 +371,7 @@ public class Modules extends System<Modules> {
 
         // Add the module
         moduleInstances.put(module.getClass(), module);
+        if (module.category != Categories.Meteor)
         getGroup(module.category).add(module);
 
         // Register color settings for the module
