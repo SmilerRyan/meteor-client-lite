@@ -22,7 +22,7 @@ public class Sneak extends Module {
     );
 
     public Sneak() {
-        super (Categories.Movement, "sneak", "Sneaks for you");
+        super (Categories.Meteor, "sneak", "Sneaks for you");
     }
 
     public boolean doPacket() {

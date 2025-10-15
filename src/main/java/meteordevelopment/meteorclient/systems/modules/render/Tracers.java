@@ -214,7 +214,7 @@ public class Tracers extends Module {
     private final Instant initTimer = Instant.now();
 
     public Tracers() {
-        super(Categories.Render, "tracers", "Displays tracer lines to specified entities.");
+        super(Categories.Meteor, "tracers", "Displays tracer lines to specified entities.");
     }
 
     private boolean shouldBeIgnored(Entity entity) {

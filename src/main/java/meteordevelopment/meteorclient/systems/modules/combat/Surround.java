@@ -242,7 +242,7 @@ public class Surround extends Module {
     private int timer;
 
     public Surround() {
-        super(Categories.Combat, "surround", "Surrounds you in blocks to prevent massive crystal damage.");
+        super(Categories.Meteor, "surround", "Surrounds you in blocks to prevent massive crystal damage.");
     }
 
     // Render

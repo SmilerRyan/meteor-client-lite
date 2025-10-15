@@ -99,7 +99,7 @@ public class SpawnProofer extends Module {
     private int timer;
 
     public SpawnProofer() {
-        super(Categories.World, "spawn-proofer", "Automatically spawnproofs unlit areas.");
+        super(Categories.Meteor, "spawn-proofer", "Automatically spawnproofs unlit areas.");
     }
 
     @EventHandler

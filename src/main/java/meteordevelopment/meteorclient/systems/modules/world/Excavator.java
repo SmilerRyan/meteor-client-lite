@@ -82,7 +82,7 @@ public class Excavator extends Module {
     private BetterBlockPos start, end;
 
     public Excavator() {
-        super(Categories.World, "excavator", "Excavate a selection area.");
+        super(Categories.Meteor, "excavator", "Excavate a selection area.");
     }
 
     @Override

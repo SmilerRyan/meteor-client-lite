@@ -64,7 +64,7 @@ public class Xray extends Module {
         .build());
 
     public Xray() {
-        super(Categories.Render, "xray", "Only renders specified blocks. Good for mining.");
+        super(Categories.Meteor, "xray", "Only renders specified blocks. Good for mining.");
     }
 
     @Override

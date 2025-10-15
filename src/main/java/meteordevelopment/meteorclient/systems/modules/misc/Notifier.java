@@ -198,7 +198,7 @@ public class Notifier extends Module {
     private final Random random = new Random();
 
     public Notifier() {
-        super(Categories.Misc, "notifier", "Notifies you of different events.");
+        super(Categories.Meteor, "notifier", "Notifies you of different events.");
     }
 
     // Visual Range

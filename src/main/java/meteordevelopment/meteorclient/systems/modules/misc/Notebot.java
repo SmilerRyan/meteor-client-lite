@@ -252,7 +252,7 @@ public class Notebot extends Module {
 
 
     public Notebot() {
-        super(Categories.Misc, "notebot", "Plays noteblock nicely");
+        super(Categories.Meteor, "notebot", "Plays noteblock nicely");
 
         for (NoteBlockInstrument inst : NoteBlockInstrument.values()) {
             NotebotUtils.OptionalInstrument optionalInstrument = NotebotUtils.OptionalInstrument.fromMinecraftInstrument(inst);

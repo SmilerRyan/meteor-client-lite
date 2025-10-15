@@ -52,7 +52,7 @@ public class AutoMount extends Module {
     );
 
     public AutoMount() {
-        super(Categories.World, "auto-mount", "Automatically mounts entities.");
+        super(Categories.Meteor, "auto-mount", "Automatically mounts entities.");
     }
 
     @EventHandler

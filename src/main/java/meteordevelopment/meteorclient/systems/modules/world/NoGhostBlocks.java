@@ -33,7 +33,7 @@ public class NoGhostBlocks extends Module {
     );
 
     public NoGhostBlocks() {
-        super(Categories.World, "no-ghost-blocks", "Attempts to prevent ghost blocks arising.");
+        super(Categories.Meteor, "no-ghost-blocks", "Attempts to prevent ghost blocks arising.");
     }
 
     @EventHandler

@@ -133,7 +133,7 @@ public class LiquidFiller extends Module {
     private int timer;
 
     public LiquidFiller(){
-        super(Categories.World, "liquid-filler", "Places blocks inside of liquid source blocks within range of you.");
+        super(Categories.Meteor, "liquid-filler", "Places blocks inside of liquid source blocks within range of you.");
     }
 
     @Override

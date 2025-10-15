@@ -80,7 +80,7 @@ public class AirPlace extends Module {
     private HitResult hitResult;
 
     public AirPlace() {
-        super(Categories.Player, "air-place", "Places a block where your crosshair is pointing at.");
+        super(Categories.Meteor, "air-place", "Places a block where your crosshair is pointing at.");
     }
 
     @EventHandler

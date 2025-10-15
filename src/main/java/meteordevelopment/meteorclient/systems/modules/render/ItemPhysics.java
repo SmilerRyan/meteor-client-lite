@@ -44,7 +44,7 @@ public class ItemPhysics extends Module {
     private boolean skipTransformation;
 
     public ItemPhysics() {
-        super(Categories.Render, "item-physics", "Applies physics to items on the ground.");
+        super(Categories.Meteor, "item-physics", "Applies physics to items on the ground.");
     }
 
     @EventHandler

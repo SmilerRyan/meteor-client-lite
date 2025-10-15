@@ -79,7 +79,7 @@ public class Zoom extends Module {
     private boolean hudManualToggled;
 
     public Zoom() {
-        super(Categories.Render, "zoom", "Zooms your view.");
+        super(Categories.Meteor, "zoom", "Zooms your view.");
         autoSubscribe = false;
     }
 

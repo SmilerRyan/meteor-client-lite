@@ -109,7 +109,7 @@ public class Burrow extends Module {
     private boolean shouldBurrow;
 
     public Burrow() {
-        super(Categories.Combat, "burrow", "Attempts to clip you into a block.");
+        super(Categories.Meteor, "burrow", "Attempts to clip you into a block.");
     }
 
     @Override

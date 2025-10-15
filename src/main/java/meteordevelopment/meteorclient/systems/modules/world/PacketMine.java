@@ -126,7 +126,7 @@ public class PacketMine extends Module {
     private boolean swapped, shouldUpdateSlot;
 
     public PacketMine() {
-        super(Categories.World, "packet-mine", "Sends packets to mine blocks without the mining animation.");
+        super(Categories.Meteor, "packet-mine", "Sends packets to mine blocks without the mining animation.");
     }
 
     @Override

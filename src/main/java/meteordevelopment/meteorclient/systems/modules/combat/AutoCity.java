@@ -136,7 +136,7 @@ public class AutoCity extends Module {
     private float progress;
 
     public AutoCity() {
-        super(Categories.Combat, "auto-city", "Automatically mine blocks next to someone's feet.");
+        super(Categories.Meteor, "auto-city", "Automatically mine blocks next to someone's feet.");
     }
 
     @Override

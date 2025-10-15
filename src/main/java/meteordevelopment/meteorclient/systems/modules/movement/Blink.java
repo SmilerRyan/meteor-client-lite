@@ -60,7 +60,7 @@ public class Blink extends Module {
     private int timer = 0;
 
     public Blink() {
-        super(Categories.Movement, "blink", "Allows you to essentially teleport while suspending motion updates.");
+        super(Categories.Meteor, "blink", "Allows you to essentially teleport while suspending motion updates.");
     }
 
     @Override

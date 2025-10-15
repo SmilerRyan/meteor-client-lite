@@ -30,7 +30,7 @@ public class AirJump extends Module {
     private int level;
 
     public AirJump() {
-        super(Categories.Movement, "air-jump", "Lets you jump in the air.");
+        super(Categories.Meteor, "air-jump", "Lets you jump in the air.");
     }
 
     @Override

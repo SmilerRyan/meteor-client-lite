@@ -27,7 +27,7 @@ public class Timer extends Module {
     private double override = 1;
 
     public Timer() {
-        super(Categories.World, "timer", "Changes the speed of everything in your game.");
+        super(Categories.Meteor, "timer", "Changes the speed of everything in your game.");
     }
 
     public double getMultiplier() {

@@ -250,7 +250,7 @@ public class KillAura extends Module {
     public static int previousSlot;
 
     public KillAura() {
-        super(Categories.Combat, "kill-aura", "Attacks specified entities around you.");
+        super(Categories.Meteor, "kill-aura", "Attacks specified entities around you.");
     }
 
     @Override

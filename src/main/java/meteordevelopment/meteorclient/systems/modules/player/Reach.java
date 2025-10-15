@@ -32,7 +32,7 @@ public class Reach extends Module {
     );
 
     public Reach() {
-        super(Categories.Player, "reach", "Gives you super long arms.");
+        super(Categories.Meteor, "reach", "Gives you super long arms.");
     }
 
     @Override

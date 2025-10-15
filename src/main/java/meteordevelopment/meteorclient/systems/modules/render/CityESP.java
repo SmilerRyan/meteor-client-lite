@@ -51,7 +51,7 @@ public class CityESP extends Module {
     private BlockPos target;
 
     public CityESP() {
-        super(Categories.Render, "city-esp", "Displays blocks that can be broken in order to city another player.");
+        super(Categories.Meteor, "city-esp", "Displays blocks that can be broken in order to city another player.");
     }
 
     @EventHandler

@@ -138,7 +138,7 @@ public class Trajectories extends Module {
     private static final double MULTISHOT_OFFSET = Math.toRadians(10); // accurate-ish offset of crossbow multishot in radians (10° degrees)
 
     public Trajectories() {
-        super(Categories.Render, "trajectories", "Predicts the trajectory of throwable items.");
+        super(Categories.Meteor, "trajectories", "Predicts the trajectory of throwable items.");
     }
 
     private boolean itemFilter(Item item) {

@@ -38,7 +38,7 @@ public class BreakDelay extends Module {
     private boolean breakBlockCooldown = false;
 
     public BreakDelay() {
-        super(Categories.Player, "break-delay", "Changes the delay between breaking blocks.");
+        super(Categories.Meteor, "break-delay", "Changes the delay between breaking blocks.");
     }
 
     @EventHandler

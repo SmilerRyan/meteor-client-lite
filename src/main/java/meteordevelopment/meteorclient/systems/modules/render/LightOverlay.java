@@ -80,7 +80,7 @@ public class LightOverlay extends Module {
     private final List<Cross> crosses = new ArrayList<>();
 
     public LightOverlay() {
-        super(Categories.Render, "light-overlay", "Shows blocks where mobs can spawn.");
+        super(Categories.Meteor, "light-overlay", "Shows blocks where mobs can spawn.");
     }
 
     @EventHandler

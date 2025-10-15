@@ -66,7 +66,7 @@ public class CameraTweaks extends Module {
     public double distance;
 
     public CameraTweaks() {
-        super(Categories.Render, "camera-tweaks", "Allows modification of the third person camera.");
+        super(Categories.Meteor, "camera-tweaks", "Allows modification of the third person camera.");
     }
 
     @Override

@@ -85,7 +85,7 @@ public class BlockESP extends Module {
     private DimensionType lastDimension;
 
     public BlockESP() {
-        super(Categories.Render, "block-esp", "Renders specified blocks through walls.", "search");
+        super(Categories.Meteor, "block-esp", "Renders specified blocks through walls.", "search");
 
         RainbowColors.register(this::onTickRainbow);
     }

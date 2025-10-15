@@ -114,7 +114,7 @@ public class Spam extends Module {
     private String text;
 
     public Spam() {
-        super(Categories.Misc, "spam", "Spams specified messages in chat.");
+        super(Categories.Meteor, "spam", "Spams specified messages in chat.");
     }
 
     @Override

@@ -75,7 +75,7 @@ public class MiddleClickExtra extends Module {
     );
 
     public MiddleClickExtra() {
-        super(Categories.Player, "middle-click-extra", "Perform various actions when you middle click.");
+        super(Categories.Meteor, "middle-click-extra", "Perform various actions when you middle click.");
     }
 
     private boolean isUsing;

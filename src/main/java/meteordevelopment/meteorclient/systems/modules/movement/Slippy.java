@@ -46,7 +46,7 @@ public class Slippy extends Module {
     );
 
     public Slippy() {
-        super(Categories.Movement, "slippy", "Changes the base friction level of blocks.");
+        super(Categories.Meteor, "slippy", "Changes the base friction level of blocks.");
     }
 
     public enum ListMode {

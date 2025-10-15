@@ -75,7 +75,7 @@ public class ServerSpoof extends Module {
     public boolean silentAcceptResourcePack = false;
 
     public ServerSpoof() {
-        super(Categories.Misc, "server-spoof", "Spoof client brand, resource pack and channels.");
+        super(Categories.Meteor, "server-spoof", "Spoof client brand, resource pack and channels.");
 
         runInMainMenu = true;
     }

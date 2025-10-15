@@ -22,7 +22,7 @@ public class Multitask extends Module {
     );
 
     public Multitask() {
-        super(Categories.Player, "multitask", "Lets you use items and attack at the same time.");
+        super(Categories.Meteor, "multitask", "Lets you use items and attack at the same time.");
     }
 
     public boolean attackingEntities() {

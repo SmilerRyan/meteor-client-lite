@@ -104,7 +104,7 @@ public class EChestFarmer extends Module {
     private int startCount;
 
     public EChestFarmer() {
-        super(Categories.World, "echest-farmer", "Places and breaks EChests to farm obsidian.");
+        super(Categories.Meteor, "echest-farmer", "Places and breaks EChests to farm obsidian.");
     }
 
     @Override

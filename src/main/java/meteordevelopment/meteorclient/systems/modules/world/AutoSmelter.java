@@ -51,7 +51,7 @@ public class AutoSmelter extends Module {
     );
 
     public AutoSmelter() {
-        super(Categories.World, "auto-smelter", "Automatically smelts items from your inventory");
+        super(Categories.Meteor, "auto-smelter", "Automatically smelts items from your inventory");
     }
 
     private boolean fuelItemFilter(Item item) {

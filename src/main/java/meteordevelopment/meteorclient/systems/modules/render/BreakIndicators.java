@@ -62,7 +62,7 @@ public class BreakIndicators extends Module {
     private final Color cLines = new Color();
 
     public BreakIndicators() {
-        super(Categories.Render, "break-indicators", "Renders the progress of a block being broken.");
+        super(Categories.Meteor, "break-indicators", "Renders the progress of a block being broken.");
     }
 
     @EventHandler

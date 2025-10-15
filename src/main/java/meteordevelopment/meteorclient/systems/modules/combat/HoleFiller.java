@@ -245,7 +245,7 @@ public class HoleFiller extends Module {
     private int timer;
 
     public HoleFiller() {
-        super(Categories.Combat, "hole-filler", "Fills holes with specified blocks.");
+        super(Categories.Meteor, "hole-filler", "Fills holes with specified blocks.");
     }
 
     @Override

@@ -135,7 +135,7 @@ public class Offhand extends Module {
     private int totems, ticks;
 
     public Offhand() {
-        super(Categories.Combat, "offhand", "Allows you to hold specified items in your offhand.");
+        super(Categories.Meteor, "offhand", "Allows you to hold specified items in your offhand.");
     }
 
     @Override

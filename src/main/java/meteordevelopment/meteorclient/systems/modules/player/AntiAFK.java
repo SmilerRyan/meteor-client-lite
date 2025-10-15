@@ -143,7 +143,7 @@ public class AntiAFK extends Module {
     );
 
     public AntiAFK() {
-        super(Categories.Player, "anti-afk", "Performs different actions to prevent getting kicked while AFK.");
+        super(Categories.Meteor, "anti-afk", "Performs different actions to prevent getting kicked while AFK.");
     }
 
     private final Random random = new Random();

@@ -30,7 +30,7 @@ public class NoStatusEffects extends Module {
     );
 
     public NoStatusEffects() {
-        super(Categories.Player, "no-status-effects", "Blocks specified status effects.");
+        super(Categories.Meteor, "no-status-effects", "Blocks specified status effects.");
     }
 
     public boolean shouldBlock(StatusEffect effect) {

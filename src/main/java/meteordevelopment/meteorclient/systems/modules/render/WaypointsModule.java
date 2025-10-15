@@ -86,7 +86,7 @@ public class WaypointsModule extends Module {
     );
 
     public WaypointsModule() {
-        super(Categories.Render, "waypoints", "Allows you to create waypoints.");
+        super(Categories.Meteor, "waypoints", "Allows you to create waypoints.");
     }
 
     private final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");

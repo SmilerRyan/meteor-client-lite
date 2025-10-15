@@ -60,7 +60,7 @@ public class Fullbright extends Module {
     );
 
     public Fullbright() {
-        super(Categories.Render, "fullbright", "Lights up your world!");
+        super(Categories.Meteor, "fullbright", "Lights up your world!");
     }
 
     @Override

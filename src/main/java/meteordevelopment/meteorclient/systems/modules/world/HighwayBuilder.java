@@ -462,7 +462,7 @@ public class HighwayBuilder extends Module {
     private final MBlockPos posRender3 = new MBlockPos();
 
     public HighwayBuilder() {
-        super(Categories.World, "highway-builder", "Automatically builds highways.");
+        super(Categories.Meteor, "highway-builder", "Automatically builds highways.");
         runInMainMenu = true;
     }
 

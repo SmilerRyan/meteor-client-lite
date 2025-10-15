@@ -106,7 +106,7 @@ public class ArrowDodge extends Module {
     private final List<Vector3d> points = new ArrayList<>();
 
     public ArrowDodge() {
-        super(Categories.Combat, "arrow-dodge", "Tries to dodge arrows coming at you.");
+        super(Categories.Meteor, "arrow-dodge", "Tries to dodge arrows coming at you.");
     }
 
     @EventHandler

@@ -55,7 +55,7 @@ public class Collisions extends Module {
     );
 
     public Collisions() {
-        super(Categories.World, "collisions", "Adds collision boxes to certain blocks/areas.");
+        super(Categories.Meteor, "collisions", "Adds collision boxes to certain blocks/areas.");
     }
 
     @EventHandler

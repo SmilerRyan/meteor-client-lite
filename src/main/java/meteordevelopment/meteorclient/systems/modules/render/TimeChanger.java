@@ -29,7 +29,7 @@ public class TimeChanger extends Module {
     long oldTime;
 
     public TimeChanger() {
-        super(Categories.Render, "time-changer", "Makes you able to set a custom time.");
+        super(Categories.Meteor, "time-changer", "Makes you able to set a custom time.");
     }
 
     @Override

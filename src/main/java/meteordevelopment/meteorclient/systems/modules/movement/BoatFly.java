@@ -57,7 +57,7 @@ public class BoatFly extends Module {
     );
 
     public BoatFly() {
-        super(Categories.Movement, "boat-fly", "Transforms your boat into a plane.");
+        super(Categories.Meteor, "boat-fly", "Transforms your boat into a plane.");
     }
 
     @EventHandler

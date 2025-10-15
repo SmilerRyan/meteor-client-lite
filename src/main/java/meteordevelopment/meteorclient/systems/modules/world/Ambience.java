@@ -178,7 +178,7 @@ public class Ambience extends Module {
     );
 
     public Ambience() {
-        super(Categories.World, "ambience", "Change the color of various pieces of the environment.");
+        super(Categories.Meteor, "ambience", "Change the color of various pieces of the environment.");
     }
 
     @Override
