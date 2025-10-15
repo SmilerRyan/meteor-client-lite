@@ -125,6 +125,7 @@ public class Config extends System<Config> {
         .name("prefix")
         .description("Prefix.")
         .defaultValue(".")
+        .visible(() -> false)
         .build()
     );
 

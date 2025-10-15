@@ -153,16 +153,5 @@ public abstract class ClientPlayNetworkHandlerMixin extends ClientCommonNetworkH
             ci.cancel();
             return;
         }
-
-        if (message.startsWith(Config.get().prefix.get())) {
-            try {
-                Commands.dispatch(message.substring(Config.get().prefix.get().length()));
-            } catch (CommandSyntaxException e) {
-                ChatUtils.error(e.getMessage());
-            }
-
-            client.inGameHud.getChatHud().addToMessageHistory(message);
-            ci.cancel();
-        }
     }
 }
