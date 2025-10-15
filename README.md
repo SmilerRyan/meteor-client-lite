@@ -1,10 +1,21 @@
 
 <p align="center">
-<img src="https://meteorclient.com/icon.png" alt="meteor-client-logo" width="15%"/>
+<img src="src/main/resources/assets/meteor-client/icon.png" alt="meteor-client-logo" width="15%"/>
 </p>
 
-<h1 align="center">Meteor</h1>
-<p align="center">A Minecraft Fabric Utility Mod for anarchy servers.</p>
+<h1 align="center">Meteor Lite</h1>
+<p align="center">A Minecraft Fabric Utility Mod framework.</p>
+
+<hr>
+This is literally just meteor client without the command system, modules and with a new name.<br><br>
+This is NOT designed to be a "Ghost Client" or "hacked client" but purely just<br>meteor client without the meteor modules/commands which make using the original considered hacking.<br><br>
+
+For technical users, the only changes from the original "Meteor Client" and "Meteor Lite" are:
+- The removal of the chat command system (keybind, hiding prefix setting, sending chat commands)
+- Moving all the default modules to the "Meteor" category
+- Force disabling any toggle or search for modules in the "Meteor" category
+- Rebranding the name/colors of "Meteor Client" to "Meteor Lite".
+<hr>
 
 <div align="center">
     <a href="https://discord.gg/bBGQZvd"><img src="https://img.shields.io/discord/689197705683140636?logo=discord" alt="Discord"/></a>
