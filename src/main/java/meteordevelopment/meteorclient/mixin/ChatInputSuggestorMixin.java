@@ -41,6 +41,33 @@ public abstract class ChatInputSuggestorMixin {
         cancellable = true
     )
     public void onRefresh(CallbackInfo ci, @Local StringReader reader) {
-        
+
+        /*
+
+        String prefix = Config.get().prefix.get();
+        int length = prefix.length();
+
+        if (reader.canRead(length) && reader.getString().startsWith(prefix, reader.getCursor())) {
+            reader.setCursor(reader.getCursor() + length);
+
+            if (this.parse == null) {
+                this.parse = Commands.DISPATCHER.parse(reader, mc.getNetworkHandler().getCommandSource());
+            }
+
+            int cursor = textField.getCursor();
+            if (cursor >= length && (this.window == null || !this.completingSuggestions)) {
+                this.pendingSuggestions = Commands.DISPATCHER.getCompletionSuggestions(this.parse, cursor);
+                this.pendingSuggestions.thenRun(() -> {
+                    if (this.pendingSuggestions.isDone()) {
+                        this.showCommandSuggestions();
+                    }
+                });
+            }
+
+            ci.cancel();
+        }
+
+        */
+
     }
 }

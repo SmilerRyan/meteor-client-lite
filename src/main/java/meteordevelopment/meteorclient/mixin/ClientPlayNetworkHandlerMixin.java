@@ -84,7 +84,7 @@ public abstract class ClientPlayNetworkHandlerMixin extends ClientCommonNetworkH
     }
 
     // the server sends a GameJoin packet after the reconfiguration phase
-    @Inject(method = "onEnterReconfiguration", at = @At(value = "INVOKE", target = "Lnet/minecraft/network/NetworkThreadUtils;forceMainThread(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/listener/PacketListener;Lnet/minecraft/util/thread/ThreadExecutor;)V", shift = At.Shift.AFTER))
+    @Inject(method = "onEnterReconfiguration", at = @At(value = "INVOKE", target = "Lnet/minecraft/network/NetworkThreadUtils;forceMainThread(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/listener/PacketListener;Lnet/minecraft/network/PacketApplyBatcher;)V", shift = At.Shift.AFTER))
     private void onEnterReconfiguration(EnterReconfigurationS2CPacket packet, CallbackInfo info) {
         MeteorClient.EVENT_BUS.post(GameLeftEvent.get());
     }
@@ -117,7 +117,7 @@ public abstract class ClientPlayNetworkHandlerMixin extends ClientCommonNetworkH
         }
     }
 
-    @Inject(method = "onExplosion", at = @At(value = "INVOKE", target = "Lnet/minecraft/network/NetworkThreadUtils;forceMainThread(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/listener/PacketListener;Lnet/minecraft/util/thread/ThreadExecutor;)V", shift = At.Shift.AFTER))
+    @Inject(method = "onExplosion", at = @At(value = "INVOKE", target = "Lnet/minecraft/network/NetworkThreadUtils;forceMainThread(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/listener/PacketListener;Lnet/minecraft/network/PacketApplyBatcher;)V", shift = At.Shift.AFTER))
     private void onExplosionVelocity(ExplosionS2CPacket packet, CallbackInfo ci) {
         Velocity velocity = Modules.get().get(Velocity.class);
         if (!velocity.explosions.get()) return;
@@ -153,5 +153,21 @@ public abstract class ClientPlayNetworkHandlerMixin extends ClientCommonNetworkH
             ci.cancel();
             return;
         }
+
+        /*
+
+        if (message.startsWith(Config.get().prefix.get())) {
+            try {
+                Commands.dispatch(message.substring(Config.get().prefix.get().length()));
+            } catch (CommandSyntaxException e) {
+                ChatUtils.error(e.getMessage());
+            }
+
+            client.inGameHud.getChatHud().addToMessageHistory(message);
+            ci.cancel();
+        }
+        
+        */
+
     }
 }
